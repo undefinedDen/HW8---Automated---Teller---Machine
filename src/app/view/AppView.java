@@ -16,17 +16,13 @@ public class AppView {
                 2 - Top up the card balance
                 3 - withdraw money
                 4 - get menu
-                5 - get the card out
+                5 - completion a work and  get the card out
                 """);
     }
 
     public String  getInput(String input){
         System.out.print(input);
         return scanner.nextLine();
-    }
-    public int getInputInt(String input){
-        System.out.print(input);
-        return scanner.nextInt();
     }
 
 }
